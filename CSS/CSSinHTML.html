@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSSinHTML</title>
+        <link rel="stylesheet" href="CSSinHTML.css">
+    </head>
+    <body>
+        <div class="box">
+            Day la noi dung bai viet
+        </div>
+
+
+        <div>
+            <h1>CSS in HTML</h1>
+            <ol>
+                <li>Internal: Su dung the style trong file HTML</li>
+                <li>External: Viết một file css riêng rồi link vào HTML</li>
+                <li>Inline: Viết attribute thẳng vào dòng lệnh</li>
+            </ol>
+        </div>
+        <div>
+            <h2>Mức độ ưu tiên trong CSS</h2>
+            <ol>
+                <li>Internal và External: gọi cái nào sau thì áp dụng cái đó trước.</li>
+                <li>Ưu tiên: Inline 1000 điểm > #id 100 điểm > .class 10 điểm > tag 1 điểm</li>
+            </ol>
+        </div>
+
+        <div>
+            <h2>CSS units - Đơn vị</h1>
+            <div class="box"></div>
+            <h3>1. Absolute units?</h2>
+            <ul>
+                <li>px</li>
+                <li>pt</li>
+                <li>cm</li>
+                <li>mm</li>
+                <li>inch</li>
+                <li>pc</li>
+            </ul>
+            <h3>2. Relative units?</h2>
+            <ul>
+                <li>%</li>
+                <li>rem: phụ thuộc vào thuộc tính của thẻ html</li>
+                <li>em: phụ thuộc vào thẻ gần nó nhất</li>
+                <li>vw: chiều ngang của trình duyệt (theo đơn vị %) 50vw = 50% chiều ngang</li>
+                <li>vh: chiều dọc của trình duyệt (theo đơn vị %) </li>
+                <li>vmin</li>
+                <li>vmax</li>
+                <li>ex</li>
+                <li>ch</li>
+            </ul>
+        </div>
+
+        <div>
+            <h1 id="h1one">CSS selector</h1>
+            <h1 class="h1two">CSS selector</h1>
+            <h1 class="h1two">CSS selector</h1>
+            <h1 class="h1two">CSS selector</h1>
+        </div>
+        <div>
+            <h2>Thuoc tinh Padding-Border-Margin</h2>
+            <div class="box box1">Box 1</div>
+            <div class="box box2">Box 2</div>
+            <div class="box box3">Box 3</div>
+        </div>
+
+    </body>
+</html>
